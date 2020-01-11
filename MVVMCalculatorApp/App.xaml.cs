@@ -13,7 +13,7 @@ namespace MVVMCalculatorApp
         {
             InitializeComponent();
 
-            //DependencyService.Register<MockDataStore>();
+            DependencyService.Register<CalculatorOperationsService>();
             MainPage = new MainPage();
         }
 

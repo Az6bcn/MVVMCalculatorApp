@@ -20,11 +20,16 @@
     <Compile Remove="ViewModels\ItemDetailViewModel.cs" />
     <Compile Remove="Services\MockDataStore.cs" />
     <Compile Remove="Views\ItemsPage.xaml.cs" />
+    <Compile Remove="Services\IDataStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\ItemDetailPage.xaml" />
     <EmbeddedResource Remove="Views\ItemsPage.xaml" />
     <EmbeddedResource Remove="Views\ItemsPage.xaml" />
     <EmbeddedResource Remove="Views\ItemsPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 </Project>

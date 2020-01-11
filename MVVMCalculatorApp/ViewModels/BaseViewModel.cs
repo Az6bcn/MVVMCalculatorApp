@@ -13,6 +13,7 @@ namespace MVVMCalculatorApp.ViewModels
     public class BaseViewModel : INotifyPropertyChanged
     {
         //public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+        public ICalculatorOperationsService operationsService => DependencyService.Get<ICalculatorOperationsService>();
 
         bool isBusy = false;
         public bool IsBusy
